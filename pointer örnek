@@ -1,0 +1,18 @@
+//Diziyi pointer ile kullanma örneği
+#include <stdio.h>
+int main(){
+    int boyut;
+    printf("Dizinin boyutunu giriniz:");
+    scanf("%d",&boyut);
+     int dizi[boyut];
+     int *ptr=dizi;     printf("Dizinin elemanlarini giriniz:");
+     for(int i=0;i<boyut;i++){
+        scanf("%d",ptr+i);
+     }
+     printf("*********************\n");
+     printf("Dizinin elemanlari:\n");
+     for(int i=0;i<boyut;i++){
+        printf("%d\n",*(ptr+i));
+     }
+     return 0;
+}
