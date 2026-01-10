@@ -1,4 +1,4 @@
-// Diziye girilen elli adet sayıdan pozitif olanları B dizisine aktaran ve negatif olanları C dizisine aktaran programı PPOİNTER yardımı ile yazınız.
+// Diziye girilen elli adet sayıdan pozitif olanları B dizisine aktaran ve negatif olanları C dizisine aktaran programı POİNTER yardımı ile yazınız.
 #include <stdio.h>
 int main()
 {
